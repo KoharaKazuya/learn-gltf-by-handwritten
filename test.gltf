@@ -1,0 +1,170 @@
+{
+  "asset": { "version": "2.0" },
+  "scenes": [{ "nodes": [0] }],
+  "scene": 0,
+  "nodes": [{ "name": "cube", "mesh": 0 }],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": { "POSITION": 0, "TEXCOORD_0": 6 },
+          "mode": 6,
+          "material": 0
+        },
+        {
+          "attributes": { "POSITION": 1, "TEXCOORD_0": 7 },
+          "mode": 6,
+          "material": 1
+        },
+        {
+          "attributes": { "POSITION": 2, "TEXCOORD_0": 8 },
+          "mode": 6,
+          "material": 2
+        },
+        {
+          "attributes": { "POSITION": 3, "TEXCOORD_0": 9 },
+          "mode": 6,
+          "material": 3
+        },
+        {
+          "attributes": { "POSITION": 4, "TEXCOORD_0": 10 },
+          "mode": 6,
+          "material": 4
+        },
+        {
+          "attributes": { "POSITION": 5, "TEXCOORD_0": 11 },
+          "mode": 6,
+          "material": 5
+        }
+      ]
+    }
+  ],
+  "buffers": [
+    { "byteLength": 288, "uri": "cube_positions.bin" },
+    { "byteLength": 192, "uri": "cube_texcoords.bin" }
+  ],
+  "bufferViews": [
+    { "buffer": 0, "byteOffset": 0, "byteLength": 48 },
+    { "buffer": 0, "byteOffset": 48, "byteLength": 48 },
+    { "buffer": 0, "byteOffset": 96, "byteLength": 48 },
+    { "buffer": 0, "byteOffset": 144, "byteLength": 48 },
+    { "buffer": 0, "byteOffset": 192, "byteLength": 48 },
+    { "buffer": 0, "byteOffset": 240, "byteLength": 48 },
+    { "buffer": 1, "byteOffset": 0, "byteLength": 32 },
+    { "buffer": 1, "byteOffset": 32, "byteLength": 32 },
+    { "buffer": 1, "byteOffset": 64, "byteLength": 32 },
+    { "buffer": 1, "byteOffset": 96, "byteLength": 32 },
+    { "buffer": 1, "byteOffset": 128, "byteLength": 32 },
+    { "buffer": 1, "byteOffset": 160, "byteLength": 32 }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "type": "VEC3",
+      "count": 4,
+      "min": [-1, -1, 1],
+      "max": [1, 1, 1]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "type": "VEC3",
+      "count": 4,
+      "min": [-1, -1, -1],
+      "max": [1, 1, -1]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "type": "VEC3",
+      "count": 4,
+      "min": [-1, 1, -1],
+      "max": [1, 1, 1]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "type": "VEC3",
+      "count": 4,
+      "min": [-1, -1, -1],
+      "max": [1, -1, 1]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "type": "VEC3",
+      "count": 4,
+      "min": [1, -1, -1],
+      "max": [1, 1, 1]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "type": "VEC3",
+      "count": 4,
+      "min": [-1, -1, -1],
+      "max": [-1, 1, 1]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "type": "VEC2",
+      "count": 4
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "type": "VEC2",
+      "count": 4
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "type": "VEC2",
+      "count": 4
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "type": "VEC2",
+      "count": 4
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "type": "VEC2",
+      "count": 4
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "type": "VEC2",
+      "count": 4
+    }
+  ],
+  "textures": [
+    { "source": 0 },
+    { "source": 1 },
+    { "source": 2 },
+    { "source": 3 },
+    { "source": 4 },
+    { "source": 5 }
+  ],
+  "images": [
+    { "uri": "f.png" },
+    { "uri": "b.png" },
+    { "uri": "u.png" },
+    { "uri": "d.png" },
+    { "uri": "r.png" },
+    { "uri": "l.png" }
+  ],
+  "materials": [
+    { "pbrMetallicRoughness": { "baseColorTexture": { "index": 0 } } },
+    { "pbrMetallicRoughness": { "baseColorTexture": { "index": 1 } } },
+    { "pbrMetallicRoughness": { "baseColorTexture": { "index": 2 } } },
+    { "pbrMetallicRoughness": { "baseColorTexture": { "index": 3 } } },
+    { "pbrMetallicRoughness": { "baseColorTexture": { "index": 4 } } },
+    { "pbrMetallicRoughness": { "baseColorTexture": { "index": 5 } } }
+  ]
+}
